@@ -1,4 +1,4 @@
-package spark_01;
+package spark_01.entity;
 
 public class Item {
 	

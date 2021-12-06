@@ -1,4 +1,4 @@
-package spark_01;
+package spark_01.jsonwriter;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
 

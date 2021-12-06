@@ -1,12 +1,16 @@
 package spark_01;
 
+import spark_01.configuration.CorsFilter;
+import spark_01.controller.ItemController;
+
 public class App {
 	
-	private static ItemController itemController = new ItemController();
+	static {
+		CorsFilter.add();
+	}
 
 	public static void main(String[] args) {
-		CorsFilter.add();
-		itemController.itemApis();
+		new ItemController().itemApis();
 	}
 
 }

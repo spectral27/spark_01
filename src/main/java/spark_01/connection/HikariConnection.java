@@ -1,4 +1,4 @@
-package spark_01;
+package spark_01.connection;
 
 import java.sql.Connection;
 import java.sql.SQLException;
